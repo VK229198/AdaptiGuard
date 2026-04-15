@@ -33,10 +33,10 @@ DRY_RUN = True                # Set to False only after hardware is set up
 
 def run_offline(csv_path: str):
     """Simulate live classification on a pre-labeled CSV (for dev/demo)."""
-    log.info(f"OFFLINE MODE — classifying flows from {csv_path}")
+    log.info(f"OFFLINE MODE — classifying flows from {'D:\Taufeeq Riyaz\Projects\AdaptiGuard\data\processed\simulated_traffic.csv'}")
     load_model()
 
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv("D:\Taufeeq Riyaz\Projects\AdaptiGuard\data\processed\simulated_traffic.csv")
     total = len(df)
     attacks = 0
 

@@ -1,0 +1,947 @@
+[12:03:24] INFO response — Commands that would be sent:
+[12:03:24] INFO response —   configure terminal
+[12:03:24] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:24] INFO response —   deny ip host 192.168.20.199 any
+[12:03:24] INFO response —   permit ip any any
+[12:03:24] INFO response —   exit
+[12:03:24] INFO response —   interface vlan 20
+[12:03:24] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:24] INFO response —   exit
+[12:03:24] INFO response —   end
+[12:03:24] INFO response —   write memory
+[12:03:24] INFO main — [ALERT] Flow  1470 | INTRUSION  conf=100.00% | src=192.168.20.201
+[12:03:24] INFO response — [DRY RUN] Would block 192.168.20.201 at 2026-04-15 12:03:24
+[12:03:24] INFO response — Commands that would be sent:
+[12:03:24] INFO response —   configure terminal
+[12:03:24] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:24] INFO response —   deny ip host 192.168.20.201 any
+[12:03:24] INFO response —   permit ip any any
+[12:03:24] INFO response —   exit
+[12:03:24] INFO response —   interface vlan 20
+[12:03:24] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:24] INFO response —   exit
+[12:03:24] INFO response —   end
+[12:03:24] INFO response —   write memory
+[12:03:25] INFO main — [ALERT] Flow  1477 | INTRUSION  conf=100.00% | src=192.168.20.208
+[12:03:25] INFO response — [DRY RUN] Would block 192.168.20.208 at 2026-04-15 12:03:25
+[12:03:25] INFO response — Commands that would be sent:
+[12:03:25] INFO response —   configure terminal
+[12:03:25] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:25] INFO response —   deny ip host 192.168.20.208 any
+[12:03:25] INFO response —   permit ip any any
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   interface vlan 20
+[12:03:25] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   end
+[12:03:25] INFO response —   write memory
+[12:03:25] INFO main — [ALERT] Flow  1484 | DDOS       conf=100.00% | src=192.168.20.215
+[12:03:25] INFO response — [DRY RUN] Would block 192.168.20.215 at 2026-04-15 12:03:25
+[12:03:25] INFO response — Commands that would be sent:
+[12:03:25] INFO response —   configure terminal
+[12:03:25] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:25] INFO response —   deny ip host 192.168.20.215 any
+[12:03:25] INFO response —   permit ip any any
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   interface vlan 20
+[12:03:25] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   end
+[12:03:25] INFO response —   write memory
+[12:03:25] INFO main — [ALERT] Flow  1486 | INTRUSION  conf=99.00% | src=192.168.20.217
+[12:03:25] INFO response — [DRY RUN] Would block 192.168.20.217 at 2026-04-15 12:03:25
+[12:03:25] INFO response — Commands that would be sent:
+[12:03:25] INFO response —   configure terminal
+[12:03:25] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:25] INFO response —   deny ip host 192.168.20.217 any
+[12:03:25] INFO response —   permit ip any any
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   interface vlan 20
+[12:03:25] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   end
+[12:03:25] INFO response —   write memory
+[12:03:25] INFO main — [ALERT] Flow  1488 | INTRUSION  conf=100.00% | src=192.168.20.219
+[12:03:25] INFO response — [DRY RUN] Would block 192.168.20.219 at 2026-04-15 12:03:25
+[12:03:25] INFO response — Commands that would be sent:
+[12:03:25] INFO response —   configure terminal
+[12:03:25] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:25] INFO response —   deny ip host 192.168.20.219 any
+[12:03:25] INFO response —   permit ip any any
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   interface vlan 20
+[12:03:25] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:25] INFO response —   exit
+[12:03:25] INFO response —   end
+[12:03:25] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1491 | DDOS       conf=100.00% | src=192.168.20.222
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.222 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.222 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1492 | DDOS       conf=100.00% | src=192.168.20.223
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.223 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.223 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1493 | DDOS       conf=100.00% | src=192.168.20.224
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.224 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.224 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1495 | DDOS       conf=100.00% | src=192.168.20.226
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.226 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.226 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1496 | INTRUSION  conf=100.00% | src=192.168.20.227
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.227 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.227 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1497 | DDOS       conf=100.00% | src=192.168.20.228
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.228 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.228 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1499 | DDOS       conf=100.00% | src=192.168.20.230
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.230 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.230 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1500 | DDOS       conf=100.00% | src=192.168.20.231
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.231 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.231 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1501 | INTRUSION  conf=98.00% | src=192.168.20.232
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.232 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.232 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:26] INFO main — [ALERT] Flow  1504 | DDOS       conf=100.00% | src=192.168.20.235
+[12:03:26] INFO response — [DRY RUN] Would block 192.168.20.235 at 2026-04-15 12:03:26
+[12:03:26] INFO response — Commands that would be sent:
+[12:03:26] INFO response —   configure terminal
+[12:03:26] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:26] INFO response —   deny ip host 192.168.20.235 any
+[12:03:26] INFO response —   permit ip any any
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   interface vlan 20
+[12:03:26] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:26] INFO response —   exit
+[12:03:26] INFO response —   end
+[12:03:26] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1506 | DDOS       conf=100.00% | src=192.168.20.237
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.237 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.237 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1509 | DDOS       conf=100.00% | src=192.168.20.240
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.240 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.240 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1512 | DDOS       conf=100.00% | src=192.168.20.243
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.243 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.243 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1513 | DDOS       conf=100.00% | src=192.168.20.244
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.244 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.244 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1514 | INTRUSION  conf=100.00% | src=192.168.20.245
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.245 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.245 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1517 | INTRUSION  conf=97.00% | src=192.168.20.248
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.248 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.248 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1522 | INTRUSION  conf=98.00% | src=192.168.20.253
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.253 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.253 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1523 | DDOS       conf=100.00% | src=192.168.20.254
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.254 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.254 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:27] INFO main — [ALERT] Flow  1524 | DDOS       conf=100.00% | src=192.168.20.1
+[12:03:27] INFO response — [DRY RUN] Would block 192.168.20.1 at 2026-04-15 12:03:27
+[12:03:27] INFO response — Commands that would be sent:
+[12:03:27] INFO response —   configure terminal
+[12:03:27] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:27] INFO response —   deny ip host 192.168.20.1 any
+[12:03:27] INFO response —   permit ip any any
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   interface vlan 20
+[12:03:27] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:27] INFO response —   exit
+[12:03:27] INFO response —   end
+[12:03:27] INFO response —   write memory
+[12:03:28] INFO main — [ALERT] Flow  1533 | DDOS       conf=100.00% | src=192.168.20.10
+[12:03:28] INFO response — [DRY RUN] Would block 192.168.20.10 at 2026-04-15 12:03:28
+[12:03:28] INFO response — Commands that would be sent:
+[12:03:28] INFO response —   configure terminal
+[12:03:28] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:28] INFO response —   deny ip host 192.168.20.10 any
+[12:03:28] INFO response —   permit ip any any
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   interface vlan 20
+[12:03:28] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   end
+[12:03:28] INFO response —   write memory
+[12:03:28] INFO main — [ALERT] Flow  1536 | DDOS       conf=100.00% | src=192.168.20.13
+[12:03:28] INFO response — [DRY RUN] Would block 192.168.20.13 at 2026-04-15 12:03:28
+[12:03:28] INFO response — Commands that would be sent:
+[12:03:28] INFO response —   configure terminal
+[12:03:28] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:28] INFO response —   deny ip host 192.168.20.13 any
+[12:03:28] INFO response —   permit ip any any
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   interface vlan 20
+[12:03:28] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   end
+[12:03:28] INFO response —   write memory
+[12:03:28] INFO main — [ALERT] Flow  1537 | DDOS       conf=100.00% | src=192.168.20.14
+[12:03:28] INFO response — [DRY RUN] Would block 192.168.20.14 at 2026-04-15 12:03:28
+[12:03:28] INFO response — Commands that would be sent:
+[12:03:28] INFO response —   configure terminal
+[12:03:28] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:28] INFO response —   deny ip host 192.168.20.14 any
+[12:03:28] INFO response —   permit ip any any
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   interface vlan 20
+[12:03:28] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   end
+[12:03:28] INFO response —   write memory
+[12:03:28] INFO main — [ALERT] Flow  1538 | DDOS       conf=100.00% | src=192.168.20.15
+[12:03:28] INFO response — [DRY RUN] Would block 192.168.20.15 at 2026-04-15 12:03:28
+[12:03:28] INFO response — Commands that would be sent:
+[12:03:28] INFO response —   configure terminal
+[12:03:28] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:28] INFO response —   deny ip host 192.168.20.15 any
+[12:03:28] INFO response —   permit ip any any
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   interface vlan 20
+[12:03:28] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   end
+[12:03:28] INFO response —   write memory
+[12:03:28] INFO main — [ALERT] Flow  1540 | DDOS       conf=100.00% | src=192.168.20.17
+[12:03:28] INFO response — [DRY RUN] Would block 192.168.20.17 at 2026-04-15 12:03:28
+[12:03:28] INFO response — Commands that would be sent:
+[12:03:28] INFO response —   configure terminal
+[12:03:28] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:28] INFO response —   deny ip host 192.168.20.17 any
+[12:03:28] INFO response —   permit ip any any
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   interface vlan 20
+[12:03:28] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:28] INFO response —   exit
+[12:03:28] INFO response —   end
+[12:03:28] INFO response —   write memory
+[12:03:29] INFO main — [ALERT] Flow  1547 | DDOS       conf=100.00% | src=192.168.20.24
+[12:03:29] INFO response — [DRY RUN] Would block 192.168.20.24 at 2026-04-15 12:03:29
+[12:03:29] INFO response — Commands that would be sent:
+[12:03:29] INFO response —   configure terminal
+[12:03:29] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:29] INFO response —   deny ip host 192.168.20.24 any
+[12:03:29] INFO response —   permit ip any any
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   interface vlan 20
+[12:03:29] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   end
+[12:03:29] INFO response —   write memory
+[12:03:29] INFO main — [ALERT] Flow  1555 | DDOS       conf=100.00% | src=192.168.20.32
+[12:03:29] INFO response — [DRY RUN] Would block 192.168.20.32 at 2026-04-15 12:03:29
+[12:03:29] INFO response — Commands that would be sent:
+[12:03:29] INFO response —   configure terminal
+[12:03:29] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:29] INFO response —   deny ip host 192.168.20.32 any
+[12:03:29] INFO response —   permit ip any any
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   interface vlan 20
+[12:03:29] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   end
+[12:03:29] INFO response —   write memory
+[12:03:29] INFO main — [ALERT] Flow  1556 | INTRUSION  conf=100.00% | src=192.168.20.33
+[12:03:29] INFO response — [DRY RUN] Would block 192.168.20.33 at 2026-04-15 12:03:29
+[12:03:29] INFO response — Commands that would be sent:
+[12:03:29] INFO response —   configure terminal
+[12:03:29] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:29] INFO response —   deny ip host 192.168.20.33 any
+[12:03:29] INFO response —   permit ip any any
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   interface vlan 20
+[12:03:29] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   end
+[12:03:29] INFO response —   write memory
+[12:03:29] INFO main — [ALERT] Flow  1558 | DDOS       conf=100.00% | src=192.168.20.35
+[12:03:29] INFO response — [DRY RUN] Would block 192.168.20.35 at 2026-04-15 12:03:29
+[12:03:29] INFO response — Commands that would be sent:
+[12:03:29] INFO response —   configure terminal
+[12:03:29] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:29] INFO response —   deny ip host 192.168.20.35 any
+[12:03:29] INFO response —   permit ip any any
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   interface vlan 20
+[12:03:29] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   end
+[12:03:29] INFO response —   write memory
+[12:03:29] INFO main — [ALERT] Flow  1559 | INTRUSION  conf=100.00% | src=192.168.20.36
+[12:03:29] INFO response — [DRY RUN] Would block 192.168.20.36 at 2026-04-15 12:03:29
+[12:03:29] INFO response — Commands that would be sent:
+[12:03:29] INFO response —   configure terminal
+[12:03:29] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:29] INFO response —   deny ip host 192.168.20.36 any
+[12:03:29] INFO response —   permit ip any any
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   interface vlan 20
+[12:03:29] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:29] INFO response —   exit
+[12:03:29] INFO response —   end
+[12:03:29] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1560 | INTRUSION  conf=100.00% | src=192.168.20.37
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.37 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.37 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1561 | DDOS       conf=100.00% | src=192.168.20.38
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.38 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.38 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1562 | INTRUSION  conf=98.00% | src=192.168.20.39
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.39 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.39 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1563 | INTRUSION  conf=92.00% | src=192.168.20.40
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.40 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.40 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1564 | DDOS       conf=100.00% | src=192.168.20.41
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.41 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.41 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1573 | DDOS       conf=100.00% | src=192.168.20.50
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.50 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.50 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1576 | DDOS       conf=100.00% | src=192.168.20.53
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.53 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.53 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1577 | DDOS       conf=100.00% | src=192.168.20.54
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.54 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.54 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1578 | INTRUSION  conf=92.00% | src=192.168.20.55
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.55 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.55 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1579 | INTRUSION  conf=100.00% | src=192.168.20.56
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.56 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.56 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:30] INFO main — [ALERT] Flow  1580 | INTRUSION  conf=97.00% | src=192.168.20.57
+[12:03:30] INFO response — [DRY RUN] Would block 192.168.20.57 at 2026-04-15 12:03:30
+[12:03:30] INFO response — Commands that would be sent:
+[12:03:30] INFO response —   configure terminal
+[12:03:30] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:30] INFO response —   deny ip host 192.168.20.57 any
+[12:03:30] INFO response —   permit ip any any
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   interface vlan 20
+[12:03:30] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:30] INFO response —   exit
+[12:03:30] INFO response —   end
+[12:03:30] INFO response —   write memory
+[12:03:31] INFO main — [ALERT] Flow  1584 | DDOS       conf=100.00% | src=192.168.20.61
+[12:03:31] INFO response — [DRY RUN] Would block 192.168.20.61 at 2026-04-15 12:03:31
+[12:03:31] INFO response — Commands that would be sent:
+[12:03:31] INFO response —   configure terminal
+[12:03:31] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:31] INFO response —   deny ip host 192.168.20.61 any
+[12:03:31] INFO response —   permit ip any any
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   interface vlan 20
+[12:03:31] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   end
+[12:03:31] INFO response —   write memory
+[12:03:31] INFO main — [ALERT] Flow  1585 | INTRUSION  conf=92.00% | src=192.168.20.62
+[12:03:31] INFO response — [DRY RUN] Would block 192.168.20.62 at 2026-04-15 12:03:31
+[12:03:31] INFO response — Commands that would be sent:
+[12:03:31] INFO response —   configure terminal
+[12:03:31] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:31] INFO response —   deny ip host 192.168.20.62 any
+[12:03:31] INFO response —   permit ip any any
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   interface vlan 20
+[12:03:31] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   end
+[12:03:31] INFO response —   write memory
+[12:03:31] INFO main — [ALERT] Flow  1592 | INTRUSION  conf=100.00% | src=192.168.20.69
+[12:03:31] INFO response — [DRY RUN] Would block 192.168.20.69 at 2026-04-15 12:03:31
+[12:03:31] INFO response — Commands that would be sent:
+[12:03:31] INFO response —   configure terminal
+[12:03:31] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:31] INFO response —   deny ip host 192.168.20.69 any
+[12:03:31] INFO response —   permit ip any any
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   interface vlan 20
+[12:03:31] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   end
+[12:03:31] INFO response —   write memory
+[12:03:31] INFO main — [ALERT] Flow  1594 | DDOS       conf=100.00% | src=192.168.20.71
+[12:03:31] INFO response — [DRY RUN] Would block 192.168.20.71 at 2026-04-15 12:03:31
+[12:03:31] INFO response — Commands that would be sent:
+[12:03:31] INFO response —   configure terminal
+[12:03:31] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:31] INFO response —   deny ip host 192.168.20.71 any
+[12:03:31] INFO response —   permit ip any any
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   interface vlan 20
+[12:03:31] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   end
+[12:03:31] INFO response —   write memory
+[12:03:31] INFO main — [ALERT] Flow  1595 | DDOS       conf=100.00% | src=192.168.20.72
+[12:03:31] INFO response — [DRY RUN] Would block 192.168.20.72 at 2026-04-15 12:03:31
+[12:03:31] INFO response — Commands that would be sent:
+[12:03:31] INFO response —   configure terminal
+[12:03:31] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:31] INFO response —   deny ip host 192.168.20.72 any
+[12:03:31] INFO response —   permit ip any any
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   interface vlan 20
+[12:03:31] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:31] INFO response —   exit
+[12:03:31] INFO response —   end
+[12:03:31] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1598 | DDOS       conf=100.00% | src=192.168.20.75
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.75 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.75 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1600 | INTRUSION  conf=100.00% | src=192.168.20.77
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.77 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.77 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1602 | DDOS       conf=100.00% | src=192.168.20.79
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.79 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.79 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1603 | DDOS       conf=100.00% | src=192.168.20.80
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.80 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.80 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1606 | INTRUSION  conf=92.00% | src=192.168.20.83
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.83 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.83 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1611 | DDOS       conf=100.00% | src=192.168.20.88
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.88 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.88 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1612 | DDOS       conf=100.00% | src=192.168.20.89
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.89 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.89 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:32] INFO main — [ALERT] Flow  1614 | DDOS       conf=100.00% | src=192.168.20.91
+[12:03:32] INFO response — [DRY RUN] Would block 192.168.20.91 at 2026-04-15 12:03:32
+[12:03:32] INFO response — Commands that would be sent:
+[12:03:32] INFO response —   configure terminal
+[12:03:32] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:32] INFO response —   deny ip host 192.168.20.91 any
+[12:03:32] INFO response —   permit ip any any
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   interface vlan 20
+[12:03:32] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:32] INFO response —   exit
+[12:03:32] INFO response —   end
+[12:03:32] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1618 | INTRUSION  conf=95.00% | src=192.168.20.95
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.95 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.95 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1622 | DDOS       conf=100.00% | src=192.168.20.99
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.99 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.99 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1625 | DDOS       conf=100.00% | src=192.168.20.102
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.102 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.102 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1631 | INTRUSION  conf=100.00% | src=192.168.20.108
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.108 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.108 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1632 | DDOS       conf=100.00% | src=192.168.20.109
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.109 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.109 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1633 | DDOS       conf=100.00% | src=192.168.20.110
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.110 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.110 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:33] INFO main — [ALERT] Flow  1634 | INTRUSION  conf=100.00% | src=192.168.20.111
+[12:03:33] INFO response — [DRY RUN] Would block 192.168.20.111 at 2026-04-15 12:03:33
+[12:03:33] INFO response — Commands that would be sent:
+[12:03:33] INFO response —   configure terminal
+[12:03:33] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:33] INFO response —   deny ip host 192.168.20.111 any
+[12:03:33] INFO response —   permit ip any any
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   interface vlan 20
+[12:03:33] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:33] INFO response —   exit
+[12:03:33] INFO response —   end
+[12:03:33] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1637 | INTRUSION  conf=100.00% | src=192.168.20.114
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.114 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.114 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1639 | DDOS       conf=100.00% | src=192.168.20.116
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.116 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.116 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1640 | DDOS       conf=100.00% | src=192.168.20.117
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.117 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.117 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1647 | DDOS       conf=100.00% | src=192.168.20.124
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.124 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.124 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1648 | INTRUSION  conf=100.00% | src=192.168.20.125
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.125 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.125 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1649 | DDOS       conf=100.00% | src=192.168.20.126
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.126 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.126 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
+[12:03:34] INFO main — [ALERT] Flow  1654 | INTRUSION  conf=99.00% | src=192.168.20.131
+[12:03:34] INFO response — [DRY RUN] Would block 192.168.20.131 at 2026-04-15 12:03:34
+[12:03:34] INFO response — Commands that would be sent:
+[12:03:34] INFO response —   configure terminal
+[12:03:34] INFO response —   ip access-list extended ADAPTIBLOCK
+[12:03:34] INFO response —   deny ip host 192.168.20.131 any
+[12:03:34] INFO response —   permit ip any any
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   interface vlan 20
+[12:03:34] INFO response —   ip access-group ADAPTIBLOCK in
+[12:03:34] INFO response —   exit
+[12:03:34] INFO response —   end
+[12:03:34] INFO response —   write memory
